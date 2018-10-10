@@ -1,5 +1,5 @@
 ## Microservice
-IBM Cloud Microservice Starter for Spring
+IBM Cloud Microservice Starter for Spring with Open Liberty
 
 [![](https://img.shields.io/badge/IBM%20Cloud-powered-blue.svg)](https://bluemix.net)
 [![Platform](https://img.shields.io/badge/platform-java-lightgrey.svg?style=flat)](https://www.ibm.com/developerworks/learn/java/)
@@ -13,7 +13,7 @@ IBM Cloud Microservice Starter for Spring
 
 ### Summary
 
-The IBM Cloud Microservice Starter in Java provides a starting point for creating Java microservice applications running on [Spring](https://spring.io/).
+The IBM Cloud Microservice Starter in Java provides a starting point for creating Java microservice applications running on [Spring](https://spring.io/) with [Open Liberty](https://openliberty.io).
 
 To deploy this application to IBM Cloud using a toolchain click the **Create Toolchain** button.
 [![Create Toolchain](https://console.ng.bluemix.net/devops/graphics/create_toolchain_button.png)](https://console.ng.bluemix.net/devops/setup/deploy/)
@@ -42,7 +42,7 @@ To build and run the application:
 1. `mvn install`
 1. `java -jar ./target/microclimatespringtemplate-1.0-SNAPSHOT.jar`
 
-To run the application in Docker use the Docker file called `Dockerfile`. If you do not want to install Maven locally you can use `Dockerfile-tools` to build a container with Maven installed.
+To run the application in Docker use the Docker file called `Dockerfile`.
 
 ### Endpoints
 
