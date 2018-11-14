@@ -18,6 +18,10 @@ The IBM Cloud Microservice Starter in Java provides a starting point for creatin
 To deploy this application to IBM Cloud using a toolchain click the **Create Toolchain** button.
 [![Create Toolchain](https://console.ng.bluemix.net/devops/graphics/create_toolchain_button.png)](https://console.ng.bluemix.net/devops/setup/deploy/)
 
+Add this template to MicroClimate to help with Liberty + Spring Boot project generation. [Learn how to extend MicroClimate with more templates.](https://microclimate-dev2ops.github.io/addingdevelopmentlanguages#doc)
+
+[![Extend MicroClimate](https://microclimate-dev2ops.github.io/dist/images/logo-microclimate.svg)](https://microclimate-dev2ops.github.io/addingdevelopmentlanguages#doc)
+
 ### Requirements
 * [Maven](https://maven.apache.org/install.html)
 * Java 8: Any compliant JVM should work.
